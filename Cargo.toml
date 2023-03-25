@@ -1,0 +1,16 @@
+[package]
+name = "faker"
+version = "0.2.0"
+edition = "2021"
+description = "Generate fake data for testing and development."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[package.metadata.wapm]
+namespace = "travishorn"
+abi = "none"
+bindings = { wai-version = "0.1.0", exports = "faker.wai" }
+
+[dependencies]
+wai-bindgen-rust = "0.2.3"
