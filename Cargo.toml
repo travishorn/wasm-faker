@@ -1,9 +1,15 @@
 [package]
 name = "faker"
-version = "0.4.0"
+version = "0.5.0"
+authors = ["Travis Horn <travis@travishorn.com"]
 edition = "2021"
 description = "Generate fake data for testing and development."
+documentation = "https://github.com/travishorn/wasm-faker#readme"
+homepage = "https://github.com/travishorn/wasm-faker"
+repository = "https://github.com/travishorn/wasm-faker"
 license = "MIT"
+keywords = ["fake", "data", "generator"]
+categories = ["development-tools", "simulation", "wasm"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
