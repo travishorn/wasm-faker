@@ -1,2 +1,8 @@
+// Generate a random first name
+first-name: func() -> string
+
+// Generate a random last name
+last-name: func() -> string
+
 // Generate a random first and last name
 full-name: func() -> string
